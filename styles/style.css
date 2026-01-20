@@ -515,12 +515,12 @@ justify-items: center;
         padding-bottom: 0px;
         background-color: #1A0B2E;
     }
-.banner-description {
-        margin-top: 20px;
- 
-    transform: scale(.5);
-    padding-bottom: 0;
-}
+ .banner-description {
+        margin-top: 85px;
+        transform: scale(.9);
+        padding-bottom: 0;
+        max-width: 576px;
+    }
    /* about-section */
 
    .about-content {
@@ -598,9 +598,13 @@ footer{
         position: relative;
         bottom: 100px;
 }
-footer {
+.icon-conatiner{
+ 
 
-   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+   gap: 0;
+
 }
 
 
