@@ -67,17 +67,26 @@
 }
 
 /* banner-section */
-#bg{
+.banner{
+background: url(./hero-bg.png);
+width: 1600px;
+margin: 0 auto;
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* #bg{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     z-index: -1;
     display: flex;
     justify-content: center;
-}
+} */
 .bg-container{
 
-    position: absolute;
+  
     left: 775px;
     width: 350px;
     height: 350px;
@@ -104,12 +113,12 @@
 }
 .banner-description{
 
-    position: absolute;
     text-align: center;
     right: 700px;
     top: 600px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 
 }
 .banner-description h3{
@@ -428,19 +437,20 @@ iframe{
 }
 
 /* footer section */
-footer img{
-    width: 100%;
-    z-index: -1;
-}
+
+
 footer{
      text-align: center;
     padding-bottom: 120px;
+    background:url(./footer-bg.png);
+    padding-top: 100px;
 }
 .footer-description{
-
-position: absolute;
-right: 650px;
-top: 4120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+justify-items: center;
 
 }
 #foot-head{
@@ -481,28 +491,34 @@ top: 4120px;
     display: inline; 
    }
    /* banner-section */
+  
 .bg-container {
     position: absolute;
  
     transform: scale(.35);
     width: 199px;
     height: 199px;
-top: 85px;
+     top: 85px;
     left: 165px;
+
 }
 .bar-line-2{
     width: 100%;
 }
+.banner {
+         max-width: 576px;
+        margin: 0 auto;
+        align-items: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 0px;
+        background-color: #1A0B2E;
+    }
 .banner-description {
-    position: absolute;
-  
-    
-    display: flex;
-    flex-direction: column;
+        margin-top: 20px;
+ 
     transform: scale(.5);
-    top:230px;
-    left: 0;
-    right: 0;
+    padding-bottom: 0;
 }
    /* about-section */
 
@@ -569,15 +585,21 @@ iframe{
     justify-content: center;
 }
 
-.footer-description {
-    position: absolute;
-    right: -10px;
-    top: 5300px;
-    transform: scale(.5);
+/* footer section */
+footer{
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 0px; 
+    margin-bottom: 0px;
+}
+.footer-description{
+        transform: scale(0.5);
+        position: relative;
+        bottom: 100px;
 }
 footer {
 
-   padding-bottom: 0px; 
+   
 }
 
 
