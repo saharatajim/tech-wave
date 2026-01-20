@@ -7,7 +7,7 @@
    padding: 0;
    box-sizing: border-box;
 }
-.navbar,hr,.banner-section,.about-section,.tech-wave-section
+.navbar,hr,.banner-section,.about-section,.tech-wave-section,.featured-episodes-section,.meat-the-host
 {  max-width: 1600px;
     margin: 0 auto;}
 /* navbar section */
@@ -46,14 +46,14 @@
      font-size: 1rem;
      font-weight: 600;
      border-radius: 30px;
-     transition: tranform 3s;
+     transition: transform 5s;
 
         
 }
 .btn:hover{
     cursor: pointer;
     transform: scale(1.5) ;
-    background-color:linear-gradient(to right ,#F7E93F,  #FB09B4 ,#9100F8); ;
+    background:linear-gradient(to bottom ,#F7E93F,  #FB09B4 ,#9100F8); 
 }
 .humberger{
     display: none;
@@ -220,6 +220,118 @@ grid-column: span 2;
     line-height: 24px;
     font-size: 1rem;
     color: #FFFFFF;}
+/* featured sectionon */
+.featured-episodes-section{
+    background-color: #1A0B2E;
+    padding-top: 120px;
+}
+.feature-card-container{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  
+}
+.featured-card{
+     border-radius: 24px;
+     background-color: rgba(53,17,101,0.4);
+     margin-bottom: 120px;
+
+}
+.featured-episodes-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #FFFFFF ;
+}
+.featured-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 24px;
+  
+}
+.featured-card-text-footer{
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.featured-card-text h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.featured-card-text p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.featured-card-text span{
+    color: #00FF88;
+    font-weight: 600;
+}
+
+iframe{
+   
+    width: 380px;height: 214px;
+    border: none;
+    border-radius: 24px 24px 0 0;
+    margin-bottom: 24px;
+}
+/* host-section */
+.meat-the-host{
+     background-color: #1A0B2E;
+}
+ 
+.meat-the-host h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.host-container{
+    display: flex;
+     background-color: rgba(53,17,101,0.4);
+    gap: 24px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+.host-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.host-description h3{
+     font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.host-description p{
+     color: #FFFFFF;
+     line-height: 24px;
+     font-size: 1rem;
+}
+.host-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.host-link img{
+  border: 1px solid #533C72;
+  border-radius: 50%;
+  padding: 12.5px;
+  
+
+}
 
 
 
@@ -273,6 +385,36 @@ grid-column: span 2;
 .box-1 p {
     margin-bottom: 0px;
    
+}
+/* featured sectionon */
+
+iframe{
+    width: 100%;
+}
+.feature-card-container {
+    width: 90%;
+    flex-direction: column;
+}
+.featured-episodes-section {
+    padding-top: 40px;
+}
+.feature-card-container {
+  
+    
+     gap: 0px; 
+   
+}
+/* host-section */
+.host-container{
+    flex-direction: column;
+    width: 90%;
+}
+.host-description {
+    text-align: center;
+    
+}
+.host-link{
+    justify-content: center;
 }
 
 }
