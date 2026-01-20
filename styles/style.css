@@ -76,8 +76,8 @@
     justify-content: center;
 }
 .bg-container{
+
     position: absolute;
- 
     left: 775px;
     width: 350px;
     height: 350px;
@@ -100,6 +100,7 @@
     left: 280px;
     font-size: 1.125rem;
     font-weight: 600;
+    color: #FFFFFF;
 }
 .banner-description{
 
@@ -435,7 +436,32 @@ footer{
      text-align: center;
     padding-bottom: 120px;
 }
+.footer-description{
 
+position: absolute;
+right: 650px;
+top: 4120px;
+
+}
+#foot-head{
+    font-size: 4rem;
+}
+.icon-conatiner{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 600px;
+    margin: 0 auto;
+    height: 24px;
+    row-gap: 40px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.foot{
+   color: #FFFFFF;
+}
 
 
 
@@ -457,23 +483,24 @@ footer{
    /* banner-section */
 .bg-container {
     position: absolute;
-    left: 80px;
+ 
     transform: scale(.35);
     width: 199px;
     height: 199px;
-    bottom: 650px;
-    right: 125px;
+top: 85px;
+    left: 165px;
 }
 .bar-line-2{
     width: 100%;
 }
 .banner-description {
+    position: absolute;
   
     
     display: flex;
     flex-direction: column;
     transform: scale(.5);
-    top:210px;
+    top:230px;
     left: 0;
     right: 0;
 }
@@ -542,6 +569,16 @@ iframe{
     justify-content: center;
 }
 
+.footer-description {
+    position: absolute;
+    right: -10px;
+    top: 5300px;
+    transform: scale(.5);
+}
+footer {
+
+   padding-bottom: 0px; 
+}
 
 
 
